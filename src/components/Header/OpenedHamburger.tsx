@@ -7,7 +7,7 @@ import { BigDivHam, Line } from './StyleHeader'
 
 export default function OpenedHamburger() {
   const navigate = useNavigate();
-  const NavToAllRestaurants = () => {navigate('/AllRestaurants')}
+  const NavToAllRestaurants = () => {navigate('/ResponsiveAllRestaurants')}
   return (
     <div>
     <BigDivHam>
