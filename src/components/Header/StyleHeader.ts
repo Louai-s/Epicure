@@ -208,6 +208,34 @@ border-style:none none solid none;
 font-style: 'Helvetica Neue';
 font-size:18px;
 `
+export const FirstLastNameInput = styled.input`
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+width: 25%;
+height: 52px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin-left:5%;
+border-style:none none solid none;
+font-style: 'Helvetica Neue';
+font-size:18px;
+`
+export const DivFirstLastNameInput = styled.div`
+  display:flex;
+  flex-direction: row;
+   height:500px;
+   width: 100%;
+   position : static;
+   height:15%;
+   background-color:white;
+   left:0;
+   top:0;
+   justify-content: start;
+`
 
 export const SignInButton = styled.button`
 display: flex;
